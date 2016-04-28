@@ -35,6 +35,8 @@ public class PersonModel implements Serializable {
 	 */
 	public PersonModel() {
 	}
+	
+// getter und setter
 
 	public int getId() {
 		return id;
