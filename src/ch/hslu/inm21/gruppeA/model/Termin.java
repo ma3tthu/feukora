@@ -1,4 +1,4 @@
-package TerminEntity;
+package ch.hslu.inm21.gruppeA.model;
 
 import java.io.Serializable;
 import java.sql.Time;
@@ -15,9 +15,13 @@ import javax.persistence.*;
  */
 
 @Entity
-public class Termin implements Serializable  {
-
-	private static final long serialVersionUID = -7204969919621773748L;
+public class Termin extends AbstractEntity implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -873113717531143387L;
+	
 	
 	@Id
 	@GeneratedValue

@@ -1,4 +1,6 @@
-package TerminEntity;
+package ch.hslu.inm21.gruppeA.persister;
+
+import ch.hslu.inm21.gruppeA.model.Termin;
 
 /**
  * 

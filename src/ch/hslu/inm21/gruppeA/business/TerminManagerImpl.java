@@ -1,6 +1,10 @@
-package TerminEntity;
+package ch.hslu.inm21.gruppeA.business;
 
 import java.rmi.RemoteException;
+
+import ch.hslu.inm21.gruppeA.model.Termin;
+import ch.hslu.inm21.gruppeA.persister.TerminDAO;
+import ch.hslu.inm21.gruppeA.persister.TerminDAOImpl;
 
 public class TerminManagerImpl implements TerminManager{
 

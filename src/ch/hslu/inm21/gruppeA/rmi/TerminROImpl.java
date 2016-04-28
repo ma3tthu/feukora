@@ -1,7 +1,9 @@
-package TerminEntity;
+package ch.hslu.inm21.gruppeA.rmi;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+
+import ch.hslu.inm21.gruppeA.model.Termin;
 
 public class TerminROImpl extends UnicastRemoteObject implements TerminRO{
 	
