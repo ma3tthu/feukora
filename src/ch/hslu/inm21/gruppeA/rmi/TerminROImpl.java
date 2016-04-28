@@ -12,7 +12,7 @@ public class TerminROImpl extends UnicastRemoteObject implements TerminRO{
 	 */
 	private static final long serialVersionUID = -5467205243737785134L;
 
-	protected TerminROImpl() throws RemoteException {
+	public TerminROImpl() throws RemoteException {
 		super();
 		// TODO Auto-generated constructor stub
 	}
