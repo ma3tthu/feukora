@@ -15,7 +15,7 @@ import javax.persistence.*;
  */
 
 @Entity
-public class TerminModel implements Serializable  {
+public class Termin implements Serializable  {
 
 	private static final long serialVersionUID = -7204969919621773748L;
 	
@@ -30,7 +30,7 @@ public class TerminModel implements Serializable  {
 	 * Standardkonstruktor
 	 * 
 	 */
-	public TerminModel(){
+	public Termin(){
 		
 	}
 	
