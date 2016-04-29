@@ -1,5 +1,7 @@
 package ch.hslu.inm21.gruppeA.persister;
 
+import java.util.List;
+
 import ch.hslu.inm21.gruppeA.model.Termin;
 
 /**
@@ -35,4 +37,20 @@ public class TerminDAOImpl implements TerminDAO {
 		
 	}
 	
+	public List<Termin> findAllTermin() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByDatum() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByZeit() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

@@ -2,6 +2,7 @@ package ch.hslu.inm21.gruppeA.rmi;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import java.util.List;
 
 import ch.hslu.inm21.gruppeA.model.Termin;
 
@@ -30,4 +31,23 @@ public class TerminROImpl extends UnicastRemoteObject implements TerminRO{
 	public void deleteTermin(Termin entity) throws RemoteException {
 		// TODO Auto-generated method stub
 	}
+	
+	public List<Termin> findAllTermin() throws RemoteException{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByDatum() throws RemoteException{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByZeit() throws RemoteException{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+
 }

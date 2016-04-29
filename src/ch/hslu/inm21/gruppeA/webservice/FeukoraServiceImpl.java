@@ -1,5 +1,7 @@
 package ch.hslu.inm21.gruppeA.webservice;
 
+import java.util.List;
+
 import ch.hslu.inm21.gruppeA.model.Termin;
 
 /**
@@ -29,5 +31,22 @@ public class FeukoraServiceImpl implements FeukoraService {
 
 	public void deleteTermin(Termin entity) {
 		// TODO Auto-generated method stub
+	}
+	
+	public List<Termin> findAllTermin() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByDatum() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByZeit() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

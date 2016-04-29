@@ -1,5 +1,7 @@
 package ch.hslu.inm21.gruppeA.persister;
 
+import java.util.List;
+
 import ch.hslu.inm21.gruppeA.model.Termin;
 
 /**
@@ -18,4 +20,10 @@ public interface TerminDAO{
 	Termin updateTermin(TerminDAO entity);
 
 	void deleteTermin(TerminDAO entity);
+	
+	List<Termin> findAllTermin() throws Exception;
+	
+	List<Termin> findTerminByDatum() throws Exception;
+	
+	List<Termin> findTerminByZeit() throws Exception;
 }

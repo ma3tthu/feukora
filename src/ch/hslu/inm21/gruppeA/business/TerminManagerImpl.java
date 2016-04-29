@@ -1,6 +1,6 @@
 package ch.hslu.inm21.gruppeA.business;
 
-import java.rmi.RemoteException;
+import java.util.List;
 
 import ch.hslu.inm21.gruppeA.model.Termin;
 import ch.hslu.inm21.gruppeA.persister.TerminDAO;
@@ -11,24 +11,43 @@ public class TerminManagerImpl implements TerminManager{
 	private TerminDAO terminDAO = new TerminDAOImpl();
 	
 	
-	
 	@Override
-	public void addTermin(Termin entity) throws RemoteException {
+	public void addTermin(Termin entity) throws Exception {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public Termin updateTermin(Termin entity) throws RemoteException {
+	public Termin updateTermin(Termin entity) throws Exception {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public void deleteTermin(Termin entity) throws RemoteException {
+	public void deleteTermin(Termin entity) throws Exception {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
+	public List<Termin> findAllTermin() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByDatum() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
+	public List<Termin> findTerminByZeit() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+		
+	}
+	
 
 	public TerminDAO getTerminDAO() {
 		return terminDAO;
@@ -37,6 +56,5 @@ public class TerminManagerImpl implements TerminManager{
 	public void setTerminDAO(TerminDAO terminDAO) {
 		this.terminDAO = terminDAO;
 	}
-
 
 }
