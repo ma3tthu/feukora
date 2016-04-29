@@ -12,9 +12,9 @@ import ch.hslu.inm21.gruppeA.model.Termin;
  * 
  */
 
-public class FeukoraServiceImpl implements FeukoraService {
+public class TerminverwaltungServiceImpl implements TerminverwaltungService {
 
-	public FeukoraServiceImpl() throws Exception {
+	public TerminverwaltungServiceImpl() throws Exception {
 		super();
 		// TODO Auto-generated constructor stub
 	}

@@ -15,7 +15,7 @@ import ch.hslu.inm21.gruppeA.model.Termin;
  */
 
 @WebService
-public interface FeukoraService {
+public interface TerminverwaltungService {
 	
 	@WebMethod
 	Termin addTermin(@WebParam (name = "Termin") Termin entity) throws Exception;

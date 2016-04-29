@@ -14,19 +14,20 @@ public class TerminManagerImpl implements TerminManager{
 	@Override
 	public void addTermin(Termin entity) throws Exception {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public Termin updateTermin(Termin entity) throws Exception {
 		// TODO Auto-generated method stub
 		return null;
+
 	}
 
 	@Override
 	public void deleteTermin(Termin entity) throws Exception {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	
