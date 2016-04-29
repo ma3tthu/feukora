@@ -30,6 +30,9 @@ public interface FeukoraService {
 	List<Termin> findAllTermin() throws Exception;
 	
 	@WebMethod
+	List<Termin> findTerminByMitarbeiter() throws Exception;
+	
+	@WebMethod
 	List<Termin> findTerminByDatum() throws Exception;
 	
 	@WebMethod

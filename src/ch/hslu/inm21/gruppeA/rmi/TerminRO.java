@@ -16,6 +16,8 @@ public interface TerminRO extends Remote{
 	
 	List<Termin> findAllTermin() throws RemoteException;
 	
+	List<Termin> findTerminByMitarbeiter() throws RemoteException;
+	
 	List<Termin> findTerminByDatum() throws RemoteException;
 	
 	List<Termin> findTerminByZeit() throws RemoteException;

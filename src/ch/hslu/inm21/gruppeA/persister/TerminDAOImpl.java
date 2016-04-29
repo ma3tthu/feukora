@@ -43,6 +43,11 @@ public class TerminDAOImpl implements TerminDAO {
 		
 	}
 	
+	public List<Termin> findTerminByMitarbeiter() throws Exception{
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	public List<Termin> findTerminByDatum() throws Exception{
 		// TODO Auto-generated method stub
 		return null;

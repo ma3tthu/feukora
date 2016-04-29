@@ -23,6 +23,8 @@ public interface TerminDAO{
 	
 	List<Termin> findAllTermin() throws Exception;
 	
+	List<Termin> findTerminByMitarbeiter() throws Exception;
+	
 	List<Termin> findTerminByDatum() throws Exception;
 	
 	List<Termin> findTerminByZeit() throws Exception;

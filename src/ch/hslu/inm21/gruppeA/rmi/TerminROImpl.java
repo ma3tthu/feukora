@@ -38,6 +38,11 @@ public class TerminROImpl extends UnicastRemoteObject implements TerminRO{
 		
 	}
 	
+	public List<Termin> findTerminByMitarbeiter() throws RemoteException{
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	public List<Termin> findTerminByDatum() throws RemoteException{
 		// TODO Auto-generated method stub
 		return null;
